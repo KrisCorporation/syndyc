@@ -1,0 +1,176 @@
+/* fonts */
+@font-face {
+    font-family: 'MLB-Blue-Jays-Modern';
+    src: url(MLBBJM__.TTF) format('truetype');
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: cfecgc;
+    src: url(cfecgc.eot?ocuk1b);
+    src: url(cfecgc.eot?ocuk1b#iefix) format('embedded-opentype'), url(cfecgc.woff?ocuk1b) format('woff'), url(cfecgc.ttf?ocuk1b) format('truetype'), url(cfecgc.svg?ocuk1b#cfecgc) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=" icon-"],
+[class^=icon-] {
+    font-family: cfecgc!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-horloge:before {
+    content: "\e90a"
+}
+
+.icon-small-arrow:before {
+    content: "\e90b"
+}
+
+.icon-burger:before {
+    content: "\e90d"
+}
+
+.icon-croix:before {
+    content: "\e90e"
+}
+
+.icon-loupe:before {
+    content: "\e91a"
+}
+
+.icon-download:before {
+    content: "\e900"
+}
+
+.icon-enveloppe:before {
+    content: "\e901"
+}
+
+.icon-facebook:before {
+    content: "\e902"
+}
+
+.icon-fleche-fine-droite:before {
+    content: "\e903"
+}
+
+.icon-fleche-fine-gauche:before {
+    content: "\e904"
+}
+
+.icon-grande-vague:before {
+    content: "\e905"
+}
+
+.icon-instagram:before {
+    content: "\e906"
+}
+
+.icon-logo-cfe-cgc:before {
+    content: "\e907"
+}
+
+.icon-map:before {
+    content: "\e908"
+}
+
+.icon-pdf:before {
+    content: "\e909"
+}
+
+.icon-pdf-couleur1:before {
+    content: "\e90c"
+}
+
+.icon-petite-fleche-droite:before {
+    content: "\e90f"
+}
+
+.icon-petite-fleche-gauche:before {
+    content: "\e910"
+}
+
+.icon-petite-vague:before {
+    content: "\e911"
+}
+
+.icon-phone:before {
+    content: "\e912"
+}
+
+.icon-print:before {
+    content: "\e913"
+}
+
+.icon-share:before {
+    content: "\e914"
+}
+
+.icon-twitter:before {
+    content: "\e915"
+}
+
+.icon-youtube:before {
+    content: "\e916"
+}
+
+.icon-pdf-couleur .path1:before {
+    content: "\e917";
+    color: #ec519b
+}
+
+.icon-pdf-couleur .path2:before {
+    content: "\e918";
+    margin-left: -1.25em;
+    color: #b53629
+}
+
+.icon-pdf-couleur .path3:before {
+    content: "\e919";
+    margin-left: -1.25em;
+    color: #fff
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(Helvetica.ttf) format('ttf'), url(Helvetica.woff) format('woff'), url(Helvetica.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(Helvetica-Bold.ttf) format('ttf'), url(Helvetica-Bold.woff) format('woff'), url(Helvetica-Bold.woff2) format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(WorkSans-Bold.woff2) format('woff2'), url(WorkSans-Bold.woff) format('woff');
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(WorkSans-Regular.woff2) format('woff2'), url(WorkSans-Regular.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(WorkSans-Medium.woff2) format('woff2'), url(WorkSans-Medium.woff) format('woff');
+    font-weight: 500;
+    font-style: normal
+}

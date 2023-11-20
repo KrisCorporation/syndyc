@@ -1,0 +1,182 @@
+body{
+    margin: 0px;
+    font-family: 'Work Sans';
+}
+
+nav, ul, li {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    margin: 0;
+}
+
+header{
+    background-color: #1b499b;
+    box-shadow: 2.8px 2.8px 5px rgba(0, 0, 0, .25);;
+    min-height: 100px;
+    color: white;
+}
+
+.container{
+    max-width: 516px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* New */
+#news .title{
+    color: #1b499b;
+    font-size: 24px;
+    font-family: MLB-Blue-Jays-Modern;
+    word-spacing: -3.5px;
+    margin-bottom: 10px;
+}
+
+#news .text{
+    /* color: #1b499b; */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#news a{
+    color: #1b499b;
+    font-weight: bold;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+#news a span{
+    color: #00d28a;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+/* Presentation */
+#presentation{
+    background-color: #1b499b;
+}
+
+#presentation .title{
+    color: white;
+    font-size: 24px;
+    font-family: MLB-Blue-Jays-Modern;
+    font-weight: bolder;
+    word-spacing: -2px;
+    margin-bottom: 20px;
+}
+
+#presentation .title span{
+    color: #00d28a;
+    font-size: 24px;
+}
+
+#presentation .icon-petite-vague{
+    color: #00d28a;
+    font-size: 12px;
+}
+
+#presentation .text{
+    margin-top: 20px;
+    line-height: 2;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+footer{
+    color: white;
+    background-color: #3a3a3a;
+}
+
+footer .footer_top{
+    height: 50px;
+}
+
+footer .footer_bottom{
+    height: 50px;
+    background-color: #2d2d2d;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0px; */
+    padding: 0px;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+nav li {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    /* vertical-align: middle; */
+    align-items: center;
+}
+
+nav li > a{
+    list-style: none;
+    color: white;
+    font-family: "Work Sans";
+    font-size: 17px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+}
+
+.icon-petite-fleche-droite{
+    font-family: cfecgc;
+}
+
+nav ul li a {
+    /* display: inline-block; */
+    height: max-content;
+    position: relative;
+    letter-spacing: 0.025em;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+nav ul li a:hover:after {
+    font-family: 'cfecgc' !important;
+    color: #fff;
+    content: "\e911";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    font-size: 5px;
+}
+
+nav li .adherer{
+    background-color: white;
+    color: #ec519b;
+    font-family: MLB-Blue-Jays-Modern;
+    /* padding: 5px;
+    padding-top: 5px; */
+    font-weight: bolder;
+    padding: 10px;
+}
+
+nav li .adherer:hover{
+    color:#00d28a
+}
+
+/* nav > ul > li> a:hover:after {
+    bottom: -2px;
+} */
