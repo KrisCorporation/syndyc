@@ -1,0 +1,19 @@
+.errorpage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.errortext{
+    color: #1b499b;
+    font-size: 24px;
+    font-family: MLB-Blue-Jays-Modern;
+}
+
+.oups{
+    font-size: 28px;
+    color: #00d28a;
+}
